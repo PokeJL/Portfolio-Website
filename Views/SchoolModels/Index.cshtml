@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Portfolio_Website.Models.SchoolModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Education</h1>
+
+
+<div class="grid-container-general grid-container-d2">
+    <div class="grid-item gbody">
+        <div class="grid-row">
+            <div class="grid-column">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis blanditiis animi asperiores consectetur hic assumenda
+                    ut possimus aspernatur. Qui non excepturi iste quo itaque quam
+                    voluptas temporibus accusantium minus fugit! Praesentium
+                    accusantium repellendus quae quisquam dignissimos quas obcaecati
+                    alias, explicabo accusamus voluptatum vel sit odit, unde similique
+                    cumque eaque doloribus ipsam optio placeat aperiam rerum id nobis
+                    et? Fuga, sed! Sunt dolores officia explicabo ipsum pariatur
+                    molestias saepe est exercitationem quos cupiditate. Alias eaque
+                    itaque, debitis velit delectus aliquam, cumque sapiente placeat,
+                    laboriosam aspernatur aliquid accusantium officiis corrupti
+                    nostrum odit? Magnam aspernatur id repellendus soluta, libero at
+                    distinctio ullam a quasi officia quisquam. Labore mollitia
+                    nostrum, sed architecto soluta non pariatur magnam, repellat
+                    totam, vitae voluptatem debitis accusamus molestias provident.
+                    Sint voluptates natus dicta nulla veritatis omnis porro officiis
+                    perferendis voluptate odit eos obcaecati quas libero magnam quo,
+                    nesciunt iste blanditiis! Assumenda, neque possimus nihil commodi
+                    sit at quasi fuga! Assumenda odio similique temporibus deserunt
+                    blanditiis quas libero impedit, velit tempora sunt. Ullam
+                    voluptate qui, nisi earum ducimus corrupti ratione pariatur quod
+                    illum veniam optio suscipit laudantium beatae doloremque atque.
+                    Vel perspiciatis nihil perferendis dicta quam laudantium eius
+                    sequi modi expedita est optio ex assumenda facere ducimus, cum,
+                    cumque labore, voluptate repudiandae explicabo! Eum at vitae id
+                    pariatur, placeat neque. Nemo tempora dolorem veritatis voluptate,
+                    accusamus reprehenderit quae quam dignissimos aliquid est quaerat
+                    unde perferendis quod consequuntur quasi harum, tenetur ratione
+                    eos. Quo officia ratione doloribus at, natus molestiae error.
+                </p>
+            </div>
+            <div class="grid-row grid-item gnav">
+                <div class="row grid-column">
+@foreach (var item in Model) {
+	<div class="flip-card col-sm-12 col-md-4 col-lg-3 mb-3" style="width:300px;height:300px;">
+        <div class="flip-card-inner">
+			<div class="flip-card-front">
+				<img src="~/img/img1.jpg" alt="Avatar" style="width:300px;height:200px;">
+				<h2>
+                                        @Html.DisplayFor(modelItem => item.Degree)
+				</h2>
+            </div>
+            <div class="flip-card-back">
+            <p class="Text-In-Box">
+                @Html.DisplayFor(modelItem => item.School)
+            </p>
+            <p class="Text-In-Box">
+                @Html.DisplayFor(modelItem => item.Time_Frame)
+            </p>
+        <p class="Text-In-Box">
+                @Html.DisplayFor(modelItem => item.Description)
+            </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

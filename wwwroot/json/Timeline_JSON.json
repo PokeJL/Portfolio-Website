@@ -1,0 +1,72 @@
+[
+    {
+        "Id": 0,
+        "Title": "Graduated High School",
+        "Description": "June 2011"
+    },
+    {
+        "Id": 1,
+        "Title": "Started at Costco",
+        "Description": "July 2011, title Front End Assistant"
+    },
+    {
+        "Id": 2,
+        "Title": "Started at University of Regina",
+        "Description": "September 2011, study geology"
+    },
+    {
+        "Id": 3,
+        "Title": "Left Costco",
+        "Description": "May 2013"
+    },
+    {
+        "Id": 4,
+        "Title": "Started at the Government of Saskatchewan",
+        "Description": "May 2013, title Custodial"
+    },
+    {
+        "Id": 5,
+        "Title": "Role change at the Government of Saskatchewan",
+        "Description": "May 2017, title Maintenance Worker"
+    },
+    {
+        "Id": 6,
+        "Title": "Graduated from University of Regina",
+        "Description": "June 2017, Bachelors of Science in Geology with a Minor in Geography"
+    },
+    {
+        "Id": 7,
+        "Title": "Return to University of Regina",
+        "Description": "September 2017, study computer science"
+    },
+    {
+        "Id": 8,
+        "Title": "Role change at the Government of Saskatchewan",
+        "Description": "May 2018, title Grounds Keeper I"
+    },
+    {
+        "Id": 9,
+        "Title": "Graduated from the University of Regina",
+        "Description": "May 2020, Bachelors of Science in Computer Science"
+    },
+    {
+        "Id": 10,
+        "Title": "Started at the University of Calgary",
+        "Description": "September 2021, certificate program for .NET application development"
+    },
+    {
+        "Id": 11,
+        "Title": "Started at Royal Bank of Canada",
+        "Description": "January 2022, title Client Advisor"
+    },
+    {
+        "Id": 12,
+        "Title": "Left the Government of Saskatchewan",
+        "Description": "March 2022"
+    },
+    {
+        "Id": 13,
+        "Title": "Role change with Royal Bank of Canada",
+        "Description": "July 2023, title Client Advisor Business Services"
+    }
+]

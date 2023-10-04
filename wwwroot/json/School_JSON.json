@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 0,
+        "Degree": "Geology",
+        "School": "University of Regina",
+        "Time_Frame": "September 2011 - May 2017",
+        "Description": "Description test."
+    },
+    {
+        "Id": 1,
+        "Degree": "Computer Science",
+        "School": "University of Regina",
+        "Time_Frame": "September 2017 - May 2020",
+        "Description": "Description test."
+    },
+    {
+        "Id": 2,
+        "Degree": ".NET Application Development",
+        "School": "University of Calgary",
+        "Time_Frame": "September 2021 - Present",
+        "Description": "Description test."
+    }
+]

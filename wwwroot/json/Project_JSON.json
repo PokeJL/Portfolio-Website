@@ -1,0 +1,39 @@
+[
+    {
+        "Id": 0,
+        "Name": " PKX-Extraction",
+        "Summary": "Extracts data from RAM dumps.",
+        "Description": "This application allows the user to extract Pokémon data from RAM dumps. Users of this application have used it to discover previously unknown aspects of Pokémon games, recover lost data, research what data is stored in the RAM, and preserve data that would have otherwise been lost to time.",
+        "Project_Link": " https://github.com/PokeJL/PKX-Extraction",
+        "Picture_Link": "~/img/project/PKX_Extraction.png",
+        "Website": "GitHub"
+    },
+    {
+        "Id": 1,
+        "Name": "PK3-RAM-Injection",
+        "Summary": "Modifies the RAM of Pokémon games.",
+        "Description": "As anyone can create a ROM hack it has been deemed impractical to develop a SAV file editor as various aspects of a SAV could be modified resulting in a lot of edge cases and constant updates to support new ROM hacks. By editing the RAM checksum calculations and data block management can be handled by the game itself mitigating data corruption.",
+        "Project_Link": "https://github.com/PokeJL/PK3-RAM-Injection",
+        "Picture_Link": "~/img/project/PK3_RAM_Injection.png",
+        "Website": "GitHub"
+    },
+
+    {
+        "Id": 2,
+        "Name": "Project Test",
+        "Summary": "Summary Test.",
+        "Description": "Description test.",
+        "Project_Link": "null",
+        "Picture_Link": "~/img/project/Store_Manager.png",
+        "Website": "GitHub"
+    },
+    {
+        "Id": 3,
+        "Name": "Project Test",
+        "Summary": "Summary Test.",
+        "Description": "Description test.",
+        "Project_Link": "null",
+        "Picture_Link": "Picture link test",
+        "Website": "null"
+    }
+]
