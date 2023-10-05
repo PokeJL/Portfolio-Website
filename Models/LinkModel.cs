@@ -15,5 +15,11 @@ namespace Portfolio_Website.Models
 
         [JsonProperty(nameof(Url))]
         public required string Url { get; set; }
+
+        [JsonProperty(nameof(Picture_Link))]
+        public required string Picture_Link { get; set; }
+
+        [JsonProperty(nameof(Logo))]
+        public required string Logo { get; set; }
     }
 }

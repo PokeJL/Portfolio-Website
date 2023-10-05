@@ -3,12 +3,16 @@
         "Id": 0,
         "Name": "LinkedIn",
         "Description": "My LinkedIn.",
-        "Url": "https://www.linkedin.com/in/jackie-lesko-a53318112/?originalSubdomain=ca"
+        "Url": "https://www.linkedin.com/in/jackie-lesko-a53318112/?originalSubdomain=ca",
+        "Picture_Link": "null",
+        "Logo":  "null"
     },
     {
         "Id": 1,
         "Name": "GitHUB",
         "Description": "My GitHUB.",
-        "Url": "https://github.com/PokeJL"
+        "Url": "https://github.com/PokeJL",
+        "Picture_Link": "null",
+        "Logo": "null"
     }
 ]

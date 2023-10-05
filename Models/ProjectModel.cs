@@ -24,5 +24,8 @@ namespace Portfolio_Website.Models
 
         [JsonProperty(nameof(Website))]
         public required string Website { get; set; }
+
+        [JsonProperty(nameof(Logo))]
+        public required string Logo { get; set; }
     }
 }

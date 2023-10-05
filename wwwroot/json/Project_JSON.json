@@ -1,12 +1,13 @@
 [
     {
         "Id": 0,
-        "Name": " PKX-Extraction",
+        "Name": "PKX-Extraction",
         "Summary": "Extracts data from RAM dumps.",
         "Description": "This application allows the user to extract Pokémon data from RAM dumps. Users of this application have used it to discover previously unknown aspects of Pokémon games, recover lost data, research what data is stored in the RAM, and preserve data that would have otherwise been lost to time.",
         "Project_Link": " https://github.com/PokeJL/PKX-Extraction",
         "Picture_Link": "~/img/project/PKX_Extraction.png",
-        "Website": "GitHub"
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
     },
     {
         "Id": 1,
@@ -15,25 +16,67 @@
         "Description": "As anyone can create a ROM hack it has been deemed impractical to develop a SAV file editor as various aspects of a SAV could be modified resulting in a lot of edge cases and constant updates to support new ROM hacks. By editing the RAM checksum calculations and data block management can be handled by the game itself mitigating data corruption.",
         "Project_Link": "https://github.com/PokeJL/PK3-RAM-Injection",
         "Picture_Link": "~/img/project/PK3_RAM_Injection.png",
-        "Website": "GitHub"
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
     },
-
     {
         "Id": 2,
-        "Name": "Project Test",
-        "Summary": "Summary Test.",
-        "Description": "Description test.",
-        "Project_Link": "null",
-        "Picture_Link": "~/img/project/Store_Manager.png",
-        "Website": "GitHub"
+        "Name": "Portfolio Website",
+        "Summary": "A showcase of my work.",
+        "Description": "In order to better describe myself and show my work I made this website. Here my academic, career, and personal endeavours are placed on display.",
+        "Project_Link": "https://github.com/PokeJL/Portfolio-Website",
+        "Picture_Link": "~/img/project/Portfolio.png",
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
     },
     {
         "Id": 3,
-        "Name": "Project Test",
-        "Summary": "Summary Test.",
-        "Description": "Description test.",
+        "Name": "Store-Project",
+        "Summary": "Inventory management system.",
+        "Description": "Developed while taking ICT 711. This desktop program tracks employee sales, inventory in stock, store front transactions and store data in a JSON file. Developed using C# and .NET.",
+        "Project_Link": "https://github.com/PokeJL/Store-Project",
+        "Picture_Link": "~/img/project/Store_Manager.png",
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
+    },
+    {
+        "Id": 4,
+        "Name": "Contact-Organizer",
+        "Summary": "Manages contact lists.",
+        "Description": "Developed while taking ICT 712. This desktop application allows the user to add, remove and edit contact lists and store the data in either a JSON file or to an SQL database.",
+        "Project_Link": "https://github.com/PokeJL/Contact-Organizer",
+        "Picture_Link": "~/img/project/Contact_Organizer.png",
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
+    },
+    {
+        "Id": 5,
+        "Name": "Notes Website",
+        "Summary": "Create, edit, and delete notes.",
+        "Description": "Developed while taking ICT 713. This web based application lets the user to write a note and store it in an SQL database. Notes can be organized by their type and filtered to find the note the user is looking for.",
+        "Project_Link": "https://github.com/PokeJL/Notes-Website",
+        "Picture_Link": "~/img/project/Notes_Website.png",
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
+    },
+    {
+        "Id": 6,
+        "Name": "Rock Blaster",
+        "Summary": "A classic asteroid space adventure.",
+        "Description": "Developed while experimenting with Unity. This game is a basic asteroid rail shooter.",
         "Project_Link": "null",
-        "Picture_Link": "Picture link test",
-        "Website": "null"
+        "Picture_Link": "~/img/project/Rock_Blaster.png",
+        "Website": "null",
+        "Logo": "null"
+    },
+    {
+        "Id": 7,
+        "Name": "School Manager",
+        "Summary": "Manages students for an institution.",
+        "Description": "Developed while taking ICT 710. This desktop application allows for the user to create, load, edit, and manage student information relevant to an education institution.",
+        "Project_Link": " https://github.com/PokeJL/School-Manager ",
+        "Picture_Link": "~/img/project/Student_Manager.png",
+        "Website": "GitHub",
+        "Logo": "~/img/logo/github-mark-white.png"
     }
 ]

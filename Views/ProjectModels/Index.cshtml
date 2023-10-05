@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Index";
     var imageAlt = "";
+    var logoAlt = "";
 }
 
 <h1>Projects</h1>
@@ -11,7 +12,7 @@
     <div class="grid-item gbody">
         <div class="grid-row">
             <div class="grid-column">
-                <p>
+                <p class="center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perspiciatis blanditiis animi asperiores consectetur hic assumenda
                     ut possimus aspernatur. Qui non excepturi iste quo itaque quam
@@ -43,22 +44,24 @@
                     eos. Quo officia ratione doloribus at, natus molestiae error.
                 </p>
             </div>
-            <div class="grid-row grid-item gnav">
+                <div class="grid-row grid-item gnav">
                 <div class="row grid-column">
 @foreach (var item in Model) {
-                        <div class="flip-card col-sm-12 col-md-4 col-lg-3 mb-3" style="width:300px;height:300px;">
+                            <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     @{
                                         imageAlt = "image_id" + item.Id;
                                     }
-                                    <img src="@Url.Content(item.Picture_Link)" alt="@imageAlt">
+                                    <img src="@Url.Content(item.Picture_Link)" alt="@imageAlt" style="margin:5px;">
+                                    <div class="bottom">
 				<h3>
 					@Html.DisplayFor(modelItem => item.Name)
 				</h3>
 					<p class="Text-In-Box">
 						@Html.DisplayFor(modelItem => item.Summary)
 					</p>
+                                    </div>
             </div>
             <div class="flip-card-back">
 				
@@ -66,11 +69,19 @@
 				<p class="Text-In-Box">
 					@Html.DisplayFor(modelItem => item.Description)
 				</p>
+                                    @{
+                                        logoAlt = item.Website + item.Id;
+                                    }
                                     @if (item.Project_Link != "null")
                                     {
+                                        <div class="bottom">
                                         <p class="Text-In-Box">
-                                            <a href="@Url.Content(item.Project_Link)">@Url.Content(item.Website)</a>
-				</p>
+                                            <a href="@Url.Content(item.Project_Link)">
+                                                        <img src="@Url.Content(item.Logo)" alt="@logoAlt" class="websiteLogos">@Url.Content(item.Website)
+                                            </a>
+
+				                        </p>
+                                        </div>
                                     }
             </div>
         </div>

@@ -18,5 +18,8 @@ namespace Portfolio_Website.Models
 
         [JsonProperty(nameof(Description))]
         public required string Description { get; set; }
+
+        [JsonProperty(nameof(Picture_Link))]
+        public required string Picture_Link { get; set; }
     }
 }
