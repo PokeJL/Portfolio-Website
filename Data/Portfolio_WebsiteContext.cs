@@ -21,5 +21,7 @@ namespace Portfolio_Website.Data
         public DbSet<Portfolio_Website.Models.TimelineModel> TimelineModel { get; set; } = default!;
 
         public DbSet<Portfolio_Website.Models.SchoolModel> SchoolModel { get; set; } = default!;
+
+        public DbSet<Portfolio_Website.Models.WorkModel> WorkModel { get; set; } = default!;
     }
 }

@@ -7,14 +7,13 @@
 <h1>About</h1>
 
 <div class="grid-container-general grid-container-d1">
-    <div class="grid-item gbody">
-        <div class="grid-row">
-            <div class="grid-column timelineWriteUp">
+
+            <div class="grid-item gbody timelineWriteUp">
                 <p>
                     Prior to aspiring to be a software developer I graduated from the University of Regina with a Bachelors of Science in Geology with a minor in Geography.  Upon completion I returned to the University of Regina and graduated with a Bachelors of Science in Computer Science. While in computer science I worked mainly with C++, PHP, JavaScript and SQL databases to develop projects. At the time of completing my Computer Science Degree the COVID pandemic had begun combined with a lack of work place experience I enrolled at the University of Calgary where I am working towards a Certificate in .NET Application Development to continue to expand my skill. Since working on my certificate I have shifted my project development to make interface and web based applications that utilize C# and .NET. A part from my education I work different jobs ranging from packing carts at Costco, operating multi deck riding lawnmowers for the Government of Saskatchewan, to currently working as a Client Advisor Business Services with the Royal Bank of Canada. In addition I ran an official local Pokémon League on behalf of the Pokémon Company International.
                 </p>
             </div>
-            <div class="grid-column timelineGraph">
+    <div class="grid-item gnav timelineGraph">
                 @foreach (var item in Model) 
                 {
                     @if(item.Id % 2 != 0)
@@ -50,6 +49,4 @@
                     
                 }
             </div>
-        </div>  
-    </div>
 </div>

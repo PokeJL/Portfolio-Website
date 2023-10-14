@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Linq;
+using NuGet.Common;
 using Portfolio_Website.Data;
 using Portfolio_Website.Models;
 
@@ -28,7 +29,7 @@ namespace Portfolio_Website.Controllers
             JArray convert = JArray.Parse(readText);
             List<SchoolModel> data = new List<SchoolModel>();
             data = convert.ToObject<List<SchoolModel>>();
-
+            data.Reverse();
             return View(data);
         }
 

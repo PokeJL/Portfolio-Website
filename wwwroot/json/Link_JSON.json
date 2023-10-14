@@ -2,17 +2,29 @@
     {
         "Id": 0,
         "Name": "LinkedIn",
-        "Description": "My LinkedIn.",
+        "Description": "My LinkedIn",
         "Url": "https://www.linkedin.com/in/jackie-lesko-a53318112/?originalSubdomain=ca",
-        "Picture_Link": "null",
-        "Logo":  "null"
+        "Picture_Link": "~/img/logo/LI-In-Bug.png"
     },
     {
         "Id": 1,
-        "Name": "GitHUB",
-        "Description": "My GitHUB.",
+        "Name": "GitHub",
+        "Description": "My GitHUB",
         "Url": "https://github.com/PokeJL",
-        "Picture_Link": "null",
-        "Logo": "null"
+        "Picture_Link": "~/img/logo/github-mark-white.png"
+    },
+    {
+        "Id": 2,
+        "Name": "University of Regina",
+        "Description": "B.Sc. in Computer Science",
+        "Url": "https://www.uregina.ca/science/cs/undergraduate/programs-of-study/bsc.html",
+        "Picture_Link": "~/img/school/uofr.jfif"
+    },
+    {
+        "Id": 3,
+        "Name": "University of Calgary",
+        "Description": ".NET Application Development",
+        "Url": "https://conted.ucalgary.ca/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=30562134",
+        "Picture_Link": "~/img/school/uofc.jfif"
     }
 ]

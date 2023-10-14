@@ -1,0 +1,50 @@
+[
+    {
+        "Id": 0,
+        "Company": "Costco",
+        "Role": "Front End Assistant",
+        "Time_Frame": "July 2011 - May 2013",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/costco.jfif"
+    },
+    {
+        "Id": 1,
+        "Company": "Governemnt of Saskatchewan",
+        "Role": "Custodial",
+        "Time_Frame": "May 2013 - May 2017",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/saskatchewan.jfif"
+    },
+    {
+        "Id": 2,
+        "Company": "Governemnt of Saskatchewan",
+        "Role": "Maintenance Worker",
+        "Time_Frame": "May 2017 - May 2018",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/saskatchewan.jfif"
+    },
+    {
+        "Id": 3,
+        "Company": "Governemnt of Saskatchewan",
+        "Role": "Groundskeeper 1",
+        "Time_Frame": "May 2018 - March 2022",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/saskatchewan.jfif"
+    },
+    {
+        "Id": 4,
+        "Company": "RBC",
+        "Role": "Client Advisor",
+        "Time_Frame": "January 2022 - June 2023",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/rbc.jfif"
+    },
+    {
+        "Id": 5,
+        "Company": "RBC",
+        "Role": "Client Advisor Buisness Services",
+        "Time_Frame": "July 2023 - Present",
+        "Description": "Description test.",
+        "Picture_Link": "~/img/work/rbc.jfif"
+    }
+]

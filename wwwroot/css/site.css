@@ -28,6 +28,10 @@ h2 {
     color: black;
 }
 
+.h3White{
+    color: whitesmoke;
+}
+
 .Text-In-Box{
     color: black;
 }
@@ -50,12 +54,40 @@ h2 {
     margin-right: auto;
 }
 
+.headerLine {
+    color: whitesmoke;
+    height:5px;
+    opacity: unset;
+}
+
 .btn-link {
     color: whitesmoke;
 }
 
+.linkImg {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.workImg {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.projectImg {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+}
+
 .websiteLogos {
     width: 10%;
+    border-radius: unset;
 }
 
 a:link, a:any-link {
@@ -117,11 +149,11 @@ body {
     gap: 1vw;
 }
 
-/* Controls the layout of the page 
-of the gallery and contact pages */
 .grid-container-d1 {
+    display: flex;
+    flex-wrap: wrap;
     grid-template-areas:
-        "body body";
+        "body nav";
 }
 
 .grid-container-d2 {
@@ -167,6 +199,13 @@ of the gallery and contact pages */
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.none-flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
     transform-style: preserve-3d;
 }
 
@@ -396,5 +435,12 @@ of the gallery and contact pages */
         left: 0%;
     }
 
-    
+    .grid-container-d1 {
+        flex: 50%;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        grid-template-areas:
+            "body"
+            "nav";
+    }
 }

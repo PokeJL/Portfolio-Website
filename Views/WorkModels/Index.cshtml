@@ -1,12 +1,13 @@
-﻿@model IEnumerable<Portfolio_Website.Models.ProjectModel>
+﻿@model IEnumerable<Portfolio_Website.Models.WorkModel>
 
 @{
     ViewData["Title"] = "Index";
-    var imageAlt = "";
-    var logoAlt = "";
+    var storedCompany = " ";
+    var imageAlt = " ";
+    var logoAlt = " ";
 }
 
-<h1>Projects</h1>
+<h1>Employment</h1>
 
 <div class="grid-container-general grid-container-d2 grid-column grid-row">
     <div class="grid-item gbody">
@@ -48,47 +49,42 @@
         <div class="row">
             @foreach (var item in Model)
             {
+                if (storedCompany == " " || storedCompany != item.Company)
+                {
+                    storedCompany = item.Company;
+                    <div>
+                        <div style="float:left;">
+                            <h3 class="h3White">@Html.DisplayFor(modelItem => item.Company)</h3>
+                        </div>
+                        <div>
+                            <hr style="height:5px;" class="headerLine" />
+                        </div>
+                    </div>
+                }
+
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             @{
                                 imageAlt = "image_id" + item.Id;
                             }
-                            <img src="@Url.Content(item.Picture_Link)" alt="@imageAlt" class="projectImg">
+                            <img src="@Url.Content(item.Picture_Link)" alt="@imageAlt" class="workImg">
                             <div class="bottom">
                                 <h3>
-                                    @Html.DisplayFor(modelItem => item.Name)
+                                    @Html.DisplayFor(modelItem => item.Role)
                                 </h3>
-                                <p class="Text-In-Box">
-                                    @Html.DisplayFor(modelItem => item.Summary)
-                                </p>
                             </div>
                         </div>
                         <div class="flip-card-back">
-
-
+                            <p class="Text-In-Box">
+                                @Html.DisplayFor(modelItem => item.Time_Frame)
+                            </p>
                             <p class="Text-In-Box">
                                 @Html.DisplayFor(modelItem => item.Description)
                             </p>
-                            @{
-                                logoAlt = item.Website + item.Id;
-                            }
-                            @if (item.Project_Link != "null")
-                            {
-                                <div class="bottom">
-                                    <p class="Text-In-Box">
-                                        <a href="@Url.Content(item.Project_Link)">
-                                            <img src="@Url.Content(item.Logo)" alt="@logoAlt" class="websiteLogos">@Url.Content(item.Website)
-                                        </a>
-
-                                    </p>
-                                </div>
-                            }
                         </div>
                     </div>
                 </div>
-
-
 
             }
         </div>

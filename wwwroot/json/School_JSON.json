@@ -4,23 +4,23 @@
         "Degree": "Geology",
         "School": "University of Regina",
         "Time_Frame": "September 2011 - May 2017",
-        "Description": "Description test.",
-        "Picture_Link":  "null"
+        "Description": "Completing this degree I gained knowledge in pertaining to rock and mineral identification, structural geology, volcanology, sedimentology, aerial map interpretation, GIS, ect.",
+        "Picture_Link": "~/img/school/uofr.jfif"
     },
     {
         "Id": 1,
         "Degree": "Computer Science",
         "School": "University of Regina",
         "Time_Frame": "September 2017 - May 2020",
-        "Description": "Description test.",
-        "Picture_Link": "null"
+        "Description": "This degree has given me the foundation for software development. As a graduate I worked mainly with C++, PHP, JavaScript, SQL databases, CSS3, and HTML5. In addition learned about software life cycles, software methodology, OOP, data structures, computer networks, and web orientated programming.",
+        "Picture_Link": "~/img/school/uofr.jfif"
     },
     {
         "Id": 2,
         "Degree": ".NET Application Development",
         "School": "University of Calgary",
         "Time_Frame": "September 2021 - Present",
-        "Description": "Description test.",
-        "Picture_Link": "null"
+        "Description": "Taking this program advanced my understanding of OOP concepts and troubleshooting skills and Agile Software to design a variety of desktop and web applications. I develop knowledge and skills in the areas of C#, web programming, ASP.NET and ASP.NET MVC, and database connectivity.",
+        "Picture_Link": "~/img/school/uofc.jfif"
     }
 ]
