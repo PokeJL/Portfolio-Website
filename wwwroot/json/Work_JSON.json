@@ -4,7 +4,7 @@
         "Company": "Costco",
         "Role": "Front End Assistant",
         "Time_Frame": "July 2011 - May 2013",
-        "Description": "Description test.",
+        "Description": "As a Costco front-end assistant, responsibilities include client communication, processing payments, and upholding corporate policies. Duties encompass greeting customers, conducting banking transactions, verifying payment methods, and managing transactions.",
         "Picture_Link": "~/img/work/costco.jfif"
     },
     {
@@ -12,7 +12,7 @@
         "Company": "Governemnt of Saskatchewan",
         "Role": "Custodial",
         "Time_Frame": "May 2013 - May 2017",
-        "Description": "Description test.",
+        "Description": "The Custodian is responsible for performing custodial duties to ensure the building grounds and facilities are maintained in a healthy, safe, sanitary, and attractive manner. The Custodian is responsible for janitorial work, assisting with grounds keeping, assisting the Maintenance Coordinator with general landscaping and snow removal, and other duties as assigned.",
         "Picture_Link": "~/img/work/saskatchewan.jfif"
     },
     {
@@ -20,7 +20,7 @@
         "Company": "Governemnt of Saskatchewan",
         "Role": "Maintenance Worker",
         "Time_Frame": "May 2017 - May 2018",
-        "Description": "Description test.",
+        "Description": "Maintenance workers perform tasks related to the general maintenance of buildings. They execute minor repair work, maintain equipment and installations and perform preventive inspection of systems relating to building mechanics.",
         "Picture_Link": "~/img/work/saskatchewan.jfif"
     },
     {
@@ -28,7 +28,7 @@
         "Company": "Governemnt of Saskatchewan",
         "Role": "Groundskeeper 1",
         "Time_Frame": "May 2018 - March 2022",
-        "Description": "Description test.",
+        "Description": "Groundskeeper 1 is a manual labour position that requires working outdoors and working independently as well as part of a team. Duties include edging, weeding, mulching, watering, small tree pruning and other duties as assigned. Basic knowledge of tree, shrubs, and landscape maintenance is required. As well as, deal courteously with staff and members of the public.",
         "Picture_Link": "~/img/work/saskatchewan.jfif"
     },
     {
@@ -36,15 +36,16 @@
         "Company": "RBC",
         "Role": "Client Advisor",
         "Time_Frame": "January 2022 - June 2023",
-        "Description": "Description test.",
+        "Description": "Client Advisors put clients first and find solutions to their individual needs. They champion the RBC brand and drive business by supporting new client acquisition and deepening existing relationships. Achieving this requires proactively engaging with clients while deliver an outstanding service experience through completing transactions, and by identifying opportunities for advice.",
         "Picture_Link": "~/img/work/rbc.jfif"
     },
     {
         "Id": 5,
         "Company": "RBC",
-        "Role": "Client Advisor Buisness Services",
+        "Role": "Client Advisor Business Services",
         "Time_Frame": "July 2023 - Present",
-        "Description": "Description test.",
+        "Description": "Client Advisor Business Services perform the same roles and duties as Client Advisors while also proactively take ownership of resolving and preventing client banking problems. Manage risks by adhering to compliance routines, processes, and controls to protect client and shareholder interests while completing transactions ",
         "Picture_Link": "~/img/work/rbc.jfif"
     }
 ]
+

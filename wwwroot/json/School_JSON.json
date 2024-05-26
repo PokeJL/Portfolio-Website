@@ -4,7 +4,7 @@
         "Degree": "Geology",
         "School": "University of Regina",
         "Time_Frame": "September 2011 - May 2017",
-        "Description": "Completing this degree I gained knowledge in pertaining to rock and mineral identification, structural geology, volcanology, sedimentology, aerial map interpretation, GIS, ect.",
+        "Description": "Completing this degree enriched my understanding in diverse fields including rock and mineral identification, structural geology, volcanology, sedimentology, aerial map interpretation, and Geographic Information Systems (GIS). Despite the hurdles, the journey expanded my horizons and deepened my passion for exploration and analysis within the realm of geosciences.",
         "Picture_Link": "~/img/school/uofr.jfif"
     },
     {
@@ -12,15 +12,15 @@
         "Degree": "Computer Science",
         "School": "University of Regina",
         "Time_Frame": "September 2017 - May 2020",
-        "Description": "This degree has given me the foundation for software development. As a graduate I worked mainly with C++, PHP, JavaScript, SQL databases, CSS3, and HTML5. In addition learned about software life cycles, software methodology, OOP, data structures, computer networks, and web orientated programming.",
+        "Description": "This degree has provided me with a solid foundation in software development. As a graduate, my primary focus was on mastering C++, PHP, JavaScript, SQL databases, CSS3, and HTML5. Additionally, I gained valuable insights into software life cycles, methodologies, Object-Oriented Programming (OOP), data structures, computer networks, and web-oriented programming",
         "Picture_Link": "~/img/school/uofr.jfif"
     },
     {
         "Id": 2,
         "Degree": ".NET Application Development",
         "School": "University of Calgary",
-        "Time_Frame": "September 2021 - Present",
-        "Description": "Taking this program advanced my understanding of OOP concepts and troubleshooting skills and Agile Software to design a variety of desktop and web applications. I develop knowledge and skills in the areas of C#, web programming, ASP.NET and ASP.NET MVC, and database connectivity.",
+        "Time_Frame": "September 2021 - April 2024",
+        "Description": "Participating in this program enhanced my understanding of troubleshooting and Agile Software methodologies, enabling me to proficiently design a variety of desktop and web applications. I acquired knowledge and skills in C#, web programming, ASP.NET, ASP.NET MVC, and database connectivity.",
         "Picture_Link": "~/img/school/uofc.jfif"
     }
 ]

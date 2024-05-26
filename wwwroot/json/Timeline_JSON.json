@@ -52,7 +52,7 @@
     {
         "Id": 10,
         "Title": "Started at the University of Calgary",
-        "Description": "September 2021, certificate program for .NET application development"
+        "Description": "September 2021, certificate program for .NET Application Development"
     },
     {
         "Id": 11,
@@ -68,5 +68,11 @@
         "Id": 13,
         "Title": "Role change with Royal Bank of Canada",
         "Description": "July 2023, title Client Advisor Business Services"
+    },
+    {
+        "Id": 14,
+        "Title": "Completed certificate at University of Calgary",
+        "Description": "April 2024, certificate program for .NET Application Development"
     }
 ]
+

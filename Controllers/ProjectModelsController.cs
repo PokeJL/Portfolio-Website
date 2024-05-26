@@ -28,7 +28,7 @@ namespace Portfolio_Website.Controllers
             JArray convert = JArray.Parse(readText);
             List<ProjectModel> data = new List<ProjectModel>();
             data = convert.ToObject<List<ProjectModel>>();
-
+            data.Reverse();
             return View(data);
         }
 

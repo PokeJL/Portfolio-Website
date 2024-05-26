@@ -1,19 +1,31 @@
 ﻿@model IEnumerable<Portfolio_Website.Models.TimelineModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "About";
 }
 
 <h1>About</h1>
 
 <div class="grid-container-general grid-container-d1">
 
-            <div class="grid-item gbody timelineWriteUp">
+    <div class="grid-item gbody">
+        <div class="text-left">
+            <p>
+                My journey into software development began after earning a Bachelor of Science in Geology with a minor in Geography from the University of Regina. Recognizing the evolving landscape of technology, I returned to pursue a Bachelor of Science in Computer Science from the same institution.
+            </p>
                 <p>
-                    Prior to aspiring to be a software developer I graduated from the University of Regina with a Bachelors of Science in Geology with a minor in Geography.  Upon completion I returned to the University of Regina and graduated with a Bachelors of Science in Computer Science. While in computer science I worked mainly with C++, PHP, JavaScript and SQL databases to develop projects. At the time of completing my Computer Science Degree the COVID pandemic had begun combined with a lack of work place experience I enrolled at the University of Calgary where I am working towards a Certificate in .NET Application Development to continue to expand my skill. Since working on my certificate I have shifted my project development to make interface and web based applications that utilize C# and .NET. A part from my education I work different jobs ranging from packing carts at Costco, operating multi deck riding lawnmowers for the Government of Saskatchewan, to currently working as a Client Advisor Business Services with the Royal Bank of Canada. In addition I ran an official local Pokémon League on behalf of the Pokémon Company International.
-                </p>
-            </div>
-    <div class="grid-item gnav timelineGraph">
+                During my studies in computer science, I delved into various programming languages such as C++, PHP, JavaScript, and SQL databases, applying them to diverse projects. Despite facing the challenges posed by the onset of the COVID-19 pandemic and a lack of workplace experience, I sought further growth by enrolling in the Certificate in .NET Application Development program at the University of Calgary. There I gained skills with crafting interface and web-based applications leveraging C# and .NET technologies.
+            </p>
+                <p>
+                Beyond academia, I've embraced a versatile of employment fields, spanning roles from packing carts at Costco to operating multi-deck riding lawnmowers for the Government of Saskatchewan. Presently, I serve as a Client Advisor Business Services at the Royal Bank of Canada, where I continue to refine my skills.
+            </p>
+                <p>
+                In addition to my professional endeavors, I've also contributed to my community by spearheading an official local Pokémon League on behalf of the Pokémon Company International, demonstrating my commitment to fostering engaging experiences beyond the realm of technology.
+
+            </p>
+        </div>
+    </div>
+    <div class="grid-item gnav thefix">
                 @foreach (var item in Model) 
                 {
                     @if(item.Id % 2 != 0)
